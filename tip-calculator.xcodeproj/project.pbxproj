@@ -9,14 +9,32 @@
 /* Begin PBXBuildFile section */
 		6901F3062B5D5B86005B9B9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3052B5D5B86005B9B9C /* AppDelegate.swift */; };
 		6901F3082B5D5B86005B9B9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3072B5D5B86005B9B9C /* SceneDelegate.swift */; };
-		6901F30A2B5D5B86005B9B9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3092B5D5B86005B9B9C /* ViewController.swift */; };
-		6901F30D2B5D5B86005B9B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6901F30B2B5D5B86005B9B9C /* Main.storyboard */; };
+		6901F30A2B5D5B86005B9B9C /* TCCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3092B5D5B86005B9B9C /* TCCalculatorViewController.swift */; };
 		6901F3102B5D5B86005B9B9C /* tip_calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6901F30E2B5D5B86005B9B9C /* tip_calculator.xcdatamodeld */; };
 		6901F3122B5D5B87005B9B9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6901F3112B5D5B87005B9B9C /* Assets.xcassets */; };
 		6901F3152B5D5B87005B9B9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6901F3132B5D5B87005B9B9C /* LaunchScreen.storyboard */; };
 		6901F3202B5D5B88005B9B9C /* tip_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F31F2B5D5B88005B9B9C /* tip_calculatorTests.swift */; };
 		6901F32A2B5D5B88005B9B9C /* tip_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3292B5D5B88005B9B9C /* tip_calculatorUITests.swift */; };
 		6901F32C2B5D5B88005B9B9C /* tip_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F32B2B5D5B88005B9B9C /* tip_calculatorUITestsLaunchTests.swift */; };
+		6901F33A2B5D5BF1005B9B9C /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 6901F3392B5D5BF1005B9B9C /* CombineCocoa */; };
+		6901F33D2B5D5C1E005B9B9C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6901F33C2B5D5C1E005B9B9C /* SnapKit */; };
+		6901F3402B5D5C48005B9B9C /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 6901F33F2B5D5C48005B9B9C /* CombineCocoa */; };
+		6901F3432B5D5CA8005B9B9C /* InlineSnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 6901F3422B5D5CA8005B9B9C /* InlineSnapshotTesting */; };
+		6901F3452B5D5CA8005B9B9C /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 6901F3442B5D5CA8005B9B9C /* SnapshotTesting */; };
+		6901F3472B5D5CB8005B9B9C /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 6901F3462B5D5CB8005B9B9C /* CombineCocoa */; };
+		6901F34A2B5D5F0D005B9B9C /* TCLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3492B5D5F0D005B9B9C /* TCLogoView.swift */; };
+		6901F34C2B5D5FF8005B9B9C /* TCResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F34B2B5D5FF8005B9B9C /* TCResultView.swift */; };
+		6901F34E2B5D601C005B9B9C /* TCBillInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F34D2B5D601C005B9B9C /* TCBillInputView.swift */; };
+		6901F3502B5D6035005B9B9C /* TCTipInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F34F2B5D6035005B9B9C /* TCTipInputView.swift */; };
+		6901F3522B5D604F005B9B9C /* TCSplitInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3512B5D604F005B9B9C /* TCSplitInputView.swift */; };
+		6901F3572B5D8D87005B9B9C /* TCThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3562B5D8D87005B9B9C /* TCThemeColor.swift */; };
+		6901F3592B5D8DA0005B9B9C /* TCThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3582B5D8DA0005B9B9C /* TCThemeFont.swift */; };
+		6901F35C2B5D8DF3005B9B9C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F35B2B5D8DF3005B9B9C /* UIColorExtension.swift */; };
+		6901F35F2B5DA91D005B9B9C /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F35E2B5DA91D005B9B9C /* LabelFactory.swift */; };
+		6901F3612B5EBB04005B9B9C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3602B5EBB04005B9B9C /* UIViewExtension.swift */; };
+		6901F3632B5EC9E5005B9B9C /* TCAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3622B5EC9E5005B9B9C /* TCAmountView.swift */; };
+		6901F3652B5EECC0005B9B9C /* TCHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3642B5EECC0005B9B9C /* TCHeaderView.swift */; };
+		6901F3682B5EF1D1005B9B9C /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3672B5EF1D1005B9B9C /* Tip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +58,7 @@
 		6901F3022B5D5B86005B9B9C /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6901F3052B5D5B86005B9B9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6901F3072B5D5B86005B9B9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6901F3092B5D5B86005B9B9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6901F30C2B5D5B86005B9B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6901F3092B5D5B86005B9B9C /* TCCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCCalculatorViewController.swift; sourceTree = "<group>"; };
 		6901F30F2B5D5B86005B9B9C /* tip_calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tip_calculator.xcdatamodel; sourceTree = "<group>"; };
 		6901F3112B5D5B87005B9B9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6901F3142B5D5B87005B9B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,19 @@
 		6901F3252B5D5B88005B9B9C /* tip-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6901F3292B5D5B88005B9B9C /* tip_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITests.swift; sourceTree = "<group>"; };
 		6901F32B2B5D5B88005B9B9C /* tip_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6901F3492B5D5F0D005B9B9C /* TCLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCLogoView.swift; sourceTree = "<group>"; };
+		6901F34B2B5D5FF8005B9B9C /* TCResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCResultView.swift; sourceTree = "<group>"; };
+		6901F34D2B5D601C005B9B9C /* TCBillInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBillInputView.swift; sourceTree = "<group>"; };
+		6901F34F2B5D6035005B9B9C /* TCTipInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCTipInputView.swift; sourceTree = "<group>"; };
+		6901F3512B5D604F005B9B9C /* TCSplitInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCSplitInputView.swift; sourceTree = "<group>"; };
+		6901F3562B5D8D87005B9B9C /* TCThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThemeColor.swift; sourceTree = "<group>"; };
+		6901F3582B5D8DA0005B9B9C /* TCThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThemeFont.swift; sourceTree = "<group>"; };
+		6901F35B2B5D8DF3005B9B9C /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		6901F35E2B5DA91D005B9B9C /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		6901F3602B5EBB04005B9B9C /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		6901F3622B5EC9E5005B9B9C /* TCAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAmountView.swift; sourceTree = "<group>"; };
+		6901F3642B5EECC0005B9B9C /* TCHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCHeaderView.swift; sourceTree = "<group>"; };
+		6901F3672B5EF1D1005B9B9C /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6901F33A2B5D5BF1005B9B9C /* CombineCocoa in Frameworks */,
+				6901F33D2B5D5C1E005B9B9C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6901F3452B5D5CA8005B9B9C /* SnapshotTesting in Frameworks */,
+				6901F3432B5D5CA8005B9B9C /* InlineSnapshotTesting in Frameworks */,
+				6901F3402B5D5C48005B9B9C /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6901F3472B5D5CB8005B9B9C /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,7 @@
 				6901F31E2B5D5B88005B9B9C /* tip-calculatorTests */,
 				6901F3282B5D5B88005B9B9C /* tip-calculatorUITests */,
 				6901F3032B5D5B86005B9B9C /* Products */,
+				6901F33E2B5D5C48005B9B9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +138,13 @@
 		6901F3042B5D5B86005B9B9C /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
-				6901F3052B5D5B86005B9B9C /* AppDelegate.swift */,
-				6901F3072B5D5B86005B9B9C /* SceneDelegate.swift */,
-				6901F3092B5D5B86005B9B9C /* ViewController.swift */,
-				6901F30B2B5D5B86005B9B9C /* Main.storyboard */,
-				6901F3112B5D5B87005B9B9C /* Assets.xcassets */,
-				6901F3132B5D5B87005B9B9C /* LaunchScreen.storyboard */,
+				6901F3662B5EF1C6005B9B9C /* Model */,
+				6901F35D2B5DA908005B9B9C /* Factory */,
+				6901F35A2B5D8DD9005B9B9C /* Extensions */,
+				6901F3552B5D8D77005B9B9C /* Config */,
+				6901F3542B5D60D9005B9B9C /* Controllers */,
+				6901F3482B5D5EF8005B9B9C /* Views */,
+				6901F3532B5D60C4005B9B9C /* AppBase */,
 				6901F3162B5D5B87005B9B9C /* Info.plist */,
 				6901F30E2B5D5B86005B9B9C /* tip_calculator.xcdatamodeld */,
 			);
@@ -130,6 +168,80 @@
 			path = "tip-calculatorUITests";
 			sourceTree = "<group>";
 		};
+		6901F33E2B5D5C48005B9B9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6901F3482B5D5EF8005B9B9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6901F3492B5D5F0D005B9B9C /* TCLogoView.swift */,
+				6901F34B2B5D5FF8005B9B9C /* TCResultView.swift */,
+				6901F34D2B5D601C005B9B9C /* TCBillInputView.swift */,
+				6901F34F2B5D6035005B9B9C /* TCTipInputView.swift */,
+				6901F3512B5D604F005B9B9C /* TCSplitInputView.swift */,
+				6901F3622B5EC9E5005B9B9C /* TCAmountView.swift */,
+				6901F3642B5EECC0005B9B9C /* TCHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6901F3532B5D60C4005B9B9C /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				6901F3052B5D5B86005B9B9C /* AppDelegate.swift */,
+				6901F3072B5D5B86005B9B9C /* SceneDelegate.swift */,
+				6901F3112B5D5B87005B9B9C /* Assets.xcassets */,
+				6901F3132B5D5B87005B9B9C /* LaunchScreen.storyboard */,
+			);
+			path = AppBase;
+			sourceTree = "<group>";
+		};
+		6901F3542B5D60D9005B9B9C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6901F3092B5D5B86005B9B9C /* TCCalculatorViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6901F3552B5D8D77005B9B9C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6901F3562B5D8D87005B9B9C /* TCThemeColor.swift */,
+				6901F3582B5D8DA0005B9B9C /* TCThemeFont.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6901F35A2B5D8DD9005B9B9C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6901F35B2B5D8DF3005B9B9C /* UIColorExtension.swift */,
+				6901F3602B5EBB04005B9B9C /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6901F35D2B5DA908005B9B9C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				6901F35E2B5DA91D005B9B9C /* LabelFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		6901F3662B5EF1C6005B9B9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6901F3672B5EF1D1005B9B9C /* Tip.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +258,10 @@
 			dependencies = (
 			);
 			name = "tip-calculator";
+			packageProductDependencies = (
+				6901F3392B5D5BF1005B9B9C /* CombineCocoa */,
+				6901F33C2B5D5C1E005B9B9C /* SnapKit */,
+			);
 			productName = "tip-calculator";
 			productReference = 6901F3022B5D5B86005B9B9C /* tip-calculator.app */;
 			productType = "com.apple.product-type.application";
@@ -164,6 +280,11 @@
 				6901F31D2B5D5B88005B9B9C /* PBXTargetDependency */,
 			);
 			name = "tip-calculatorTests";
+			packageProductDependencies = (
+				6901F33F2B5D5C48005B9B9C /* CombineCocoa */,
+				6901F3422B5D5CA8005B9B9C /* InlineSnapshotTesting */,
+				6901F3442B5D5CA8005B9B9C /* SnapshotTesting */,
+			);
 			productName = "tip-calculatorTests";
 			productReference = 6901F31B2B5D5B88005B9B9C /* tip-calculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -182,6 +303,9 @@
 				6901F3272B5D5B88005B9B9C /* PBXTargetDependency */,
 			);
 			name = "tip-calculatorUITests";
+			packageProductDependencies = (
+				6901F3462B5D5CB8005B9B9C /* CombineCocoa */,
+			);
 			productName = "tip-calculatorUITests";
 			productReference = 6901F3252B5D5B88005B9B9C /* tip-calculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -218,6 +342,11 @@
 				Base,
 			);
 			mainGroup = 6901F2F92B5D5B86005B9B9C;
+			packageReferences = (
+				6901F3382B5D5BF1005B9B9C /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+				6901F33B2B5D5C1E005B9B9C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				6901F3412B5D5CA8005B9B9C /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 6901F3032B5D5B86005B9B9C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,7 +365,6 @@
 			files = (
 				6901F3152B5D5B87005B9B9C /* LaunchScreen.storyboard in Resources */,
 				6901F3122B5D5B87005B9B9C /* Assets.xcassets in Resources */,
-				6901F30D2B5D5B86005B9B9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6901F30A2B5D5B86005B9B9C /* ViewController.swift in Sources */,
+				6901F35C2B5D8DF3005B9B9C /* UIColorExtension.swift in Sources */,
+				6901F34A2B5D5F0D005B9B9C /* TCLogoView.swift in Sources */,
+				6901F34E2B5D601C005B9B9C /* TCBillInputView.swift in Sources */,
+				6901F30A2B5D5B86005B9B9C /* TCCalculatorViewController.swift in Sources */,
+				6901F3612B5EBB04005B9B9C /* UIViewExtension.swift in Sources */,
+				6901F34C2B5D5FF8005B9B9C /* TCResultView.swift in Sources */,
+				6901F3632B5EC9E5005B9B9C /* TCAmountView.swift in Sources */,
+				6901F3572B5D8D87005B9B9C /* TCThemeColor.swift in Sources */,
+				6901F3652B5EECC0005B9B9C /* TCHeaderView.swift in Sources */,
+				6901F3522B5D604F005B9B9C /* TCSplitInputView.swift in Sources */,
 				6901F3102B5D5B86005B9B9C /* tip_calculator.xcdatamodeld in Sources */,
+				6901F3592B5D8DA0005B9B9C /* TCThemeFont.swift in Sources */,
+				6901F3682B5EF1D1005B9B9C /* Tip.swift in Sources */,
 				6901F3062B5D5B86005B9B9C /* AppDelegate.swift in Sources */,
+				6901F3502B5D6035005B9B9C /* TCTipInputView.swift in Sources */,
+				6901F35F2B5DA91D005B9B9C /* LabelFactory.swift in Sources */,
 				6901F3082B5D5B86005B9B9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +442,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6901F30B2B5D5B86005B9B9C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6901F30C2B5D5B86005B9B9C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6901F3132B5D5B87005B9B9C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,7 +584,6 @@
 				INFOPLIST_FILE = "tip-calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,7 +611,6 @@
 				INFOPLIST_FILE = "tip-calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -611,6 +742,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6901F3382B5D5BF1005B9B9C /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		6901F33B2B5D5C1E005B9B9C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+		6901F3412B5D5CA8005B9B9C /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.15.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6901F3392B5D5BF1005B9B9C /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6901F3382B5D5BF1005B9B9C /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		6901F33C2B5D5C1E005B9B9C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6901F33B2B5D5C1E005B9B9C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6901F33F2B5D5C48005B9B9C /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6901F3382B5D5BF1005B9B9C /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		6901F3422B5D5CA8005B9B9C /* InlineSnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6901F3412B5D5CA8005B9B9C /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = InlineSnapshotTesting;
+		};
+		6901F3442B5D5CA8005B9B9C /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6901F3412B5D5CA8005B9B9C /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		6901F3462B5D5CB8005B9B9C /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6901F3382B5D5BF1005B9B9C /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		6901F30E2B5D5B86005B9B9C /* tip_calculator.xcdatamodeld */ = {
