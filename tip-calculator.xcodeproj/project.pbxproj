@@ -35,6 +35,12 @@
 		6901F3632B5EC9E5005B9B9C /* TCAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3622B5EC9E5005B9B9C /* TCAmountView.swift */; };
 		6901F3652B5EECC0005B9B9C /* TCHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3642B5EECC0005B9B9C /* TCHeaderView.swift */; };
 		6901F3682B5EF1D1005B9B9C /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901F3672B5EF1D1005B9B9C /* Tip.swift */; };
+		69F6BA6F2B60162D008A87ED /* TCCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6BA6E2B60162D008A87ED /* TCCalculatorViewModel.swift */; };
+		69F6BA712B601753008A87ED /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6BA702B601753008A87ED /* Result.swift */; };
+		69F6BA732B6058F8008A87ED /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6BA722B6058F8008A87ED /* StringExtension.swift */; };
+		69F6BBF62B62ADCC008A87ED /* UIResponderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6BBF52B62ADCC008A87ED /* UIResponderExtension.swift */; };
+		69F6BBF82B62DF8A008A87ED /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6BBF72B62DF8A008A87ED /* IntExtension.swift */; };
+		69F6BC1F2B63E676008A87ED /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6BC1E2B63E676008A87ED /* DoubleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +87,12 @@
 		6901F3622B5EC9E5005B9B9C /* TCAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAmountView.swift; sourceTree = "<group>"; };
 		6901F3642B5EECC0005B9B9C /* TCHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCHeaderView.swift; sourceTree = "<group>"; };
 		6901F3672B5EF1D1005B9B9C /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		69F6BA6E2B60162D008A87ED /* TCCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCCalculatorViewModel.swift; sourceTree = "<group>"; };
+		69F6BA702B601753008A87ED /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		69F6BA722B6058F8008A87ED /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		69F6BBF52B62ADCC008A87ED /* UIResponderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResponderExtension.swift; sourceTree = "<group>"; };
+		69F6BBF72B62DF8A008A87ED /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		69F6BC1E2B63E676008A87ED /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +150,7 @@
 		6901F3042B5D5B86005B9B9C /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				69F6BA6D2B601617008A87ED /* ViewModel */,
 				6901F3662B5EF1C6005B9B9C /* Model */,
 				6901F35D2B5DA908005B9B9C /* Factory */,
 				6901F35A2B5D8DD9005B9B9C /* Extensions */,
@@ -222,6 +235,10 @@
 			children = (
 				6901F35B2B5D8DF3005B9B9C /* UIColorExtension.swift */,
 				6901F3602B5EBB04005B9B9C /* UIViewExtension.swift */,
+				69F6BA722B6058F8008A87ED /* StringExtension.swift */,
+				69F6BBF52B62ADCC008A87ED /* UIResponderExtension.swift */,
+				69F6BBF72B62DF8A008A87ED /* IntExtension.swift */,
+				69F6BC1E2B63E676008A87ED /* DoubleExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -238,8 +255,17 @@
 			isa = PBXGroup;
 			children = (
 				6901F3672B5EF1D1005B9B9C /* Tip.swift */,
+				69F6BA702B601753008A87ED /* Result.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		69F6BA6D2B601617008A87ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				69F6BA6E2B60162D008A87ED /* TCCalculatorViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,9 +415,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F6BA732B6058F8008A87ED /* StringExtension.swift in Sources */,
 				6901F35C2B5D8DF3005B9B9C /* UIColorExtension.swift in Sources */,
 				6901F34A2B5D5F0D005B9B9C /* TCLogoView.swift in Sources */,
+				69F6BA712B601753008A87ED /* Result.swift in Sources */,
 				6901F34E2B5D601C005B9B9C /* TCBillInputView.swift in Sources */,
+				69F6BBF82B62DF8A008A87ED /* IntExtension.swift in Sources */,
 				6901F30A2B5D5B86005B9B9C /* TCCalculatorViewController.swift in Sources */,
 				6901F3612B5EBB04005B9B9C /* UIViewExtension.swift in Sources */,
 				6901F34C2B5D5FF8005B9B9C /* TCResultView.swift in Sources */,
@@ -400,8 +429,11 @@
 				6901F3652B5EECC0005B9B9C /* TCHeaderView.swift in Sources */,
 				6901F3522B5D604F005B9B9C /* TCSplitInputView.swift in Sources */,
 				6901F3102B5D5B86005B9B9C /* tip_calculator.xcdatamodeld in Sources */,
+				69F6BBF62B62ADCC008A87ED /* UIResponderExtension.swift in Sources */,
 				6901F3592B5D8DA0005B9B9C /* TCThemeFont.swift in Sources */,
+				69F6BC1F2B63E676008A87ED /* DoubleExtension.swift in Sources */,
 				6901F3682B5EF1D1005B9B9C /* Tip.swift in Sources */,
+				69F6BA6F2B60162D008A87ED /* TCCalculatorViewModel.swift in Sources */,
 				6901F3062B5D5B86005B9B9C /* AppDelegate.swift in Sources */,
 				6901F3502B5D6035005B9B9C /* TCTipInputView.swift in Sources */,
 				6901F35F2B5DA91D005B9B9C /* LabelFactory.swift in Sources */,

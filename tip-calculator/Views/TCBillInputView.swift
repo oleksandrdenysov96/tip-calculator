@@ -7,8 +7,16 @@
 
 import UIKit
 import Foundation
+import Combine
+import CombineCocoa
 
 class TCBillInputView: UIView {
+
+    private var cancellables = Set<AnyCancellable>()
+    private let billSubject: PassthroughSubject<Double, Never> = .init()
+    public var valuePublisher: AnyPublisher<Double, Never> {
+        return billSubject.eraseToAnyPublisher()
+    }
 
     private let headerView: TCHeaderView = {
         let view = TCHeaderView()
@@ -78,10 +86,18 @@ class TCBillInputView: UIView {
     init() {
         super.init(frame: .zero)
         layout()
+        observe()
     }
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+
+    private func observe() {
+        textField.textPublisher.sink { [weak self] text in
+            self?.billSubject.send(text?.doubleValue ?? 0)
+        }
+        .store(in: &cancellables)
     }
 
     private func layout() {

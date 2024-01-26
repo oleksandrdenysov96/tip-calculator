@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Combine
 import SnapKit
 
 class TCCalculatorViewController: UIViewController {
@@ -15,6 +16,10 @@ class TCCalculatorViewController: UIViewController {
     private let billInputView = TCBillInputView()
     private let tipInputView = TCTipInputView()
     private let splitInputView = TCSplitInputView()
+
+    private let viewModel = TCCalculatorViewModel()
+
+    private var cancellables = Set<AnyCancellable>()
 
     private lazy var verticalStackView: UIStackView = {
         let stackView = UIStackView(arrangedSubviews: [
@@ -35,6 +40,21 @@ class TCCalculatorViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = TCThemeColor.tcMainBg
         layout()
+        bind()
+    }
+
+    private func bind() {
+        let input = TCCalculatorViewModel.Input(
+            billPublisher: billInputView.valuePublisher,
+            tipPublisher: tipInputView.valuePublisher,
+            splitPublisher: splitInputView.valuePublisher
+        )
+        let output = viewModel.transform(input: input)
+
+        output.updateViewPublisher.sink { [unowned self] result in
+            resultView.configure(with: result)
+        }
+        .store(in: &cancellables)
     }
 
 
